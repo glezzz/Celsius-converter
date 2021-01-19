@@ -2,6 +2,10 @@ import javax.swing.*;
 
 public class CelsiusConverterGUI extends JFrame{
     private JPanel mainPanel;
+    private JTextField celsiusTexField;
+    private JLabel celsiusLabel;
+    private JButton convertButton;
+    private JLabel fahrenheitLabel;
 
     public CelsiusConverterGUI(String title) {
         super(title);
